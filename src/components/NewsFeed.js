@@ -7,11 +7,8 @@ const NewsFeed = () => {
 	useEffect(() => {
 		const options = {
 			method: "GET",
-			url: "https://crypto-news-live3.p.rapidapi.com/news",
-			headers: {
-				"x-rapidapi-host": "crypto-news-live3.p.rapidapi.com",
-				"x-rapidapi-key": "025ae5637amsh8bdb9efcef75e04p108269jsn9a5896c72467",
-			},
+			url: "http://localhost:5000/news",
+
 		};
 
 		axios
